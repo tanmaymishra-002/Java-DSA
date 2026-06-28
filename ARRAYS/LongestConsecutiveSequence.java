@@ -1,3 +1,5 @@
+// BRUTE FORCE FOR LONGEST-CONSECUTIVE SEQUENCE
+
 import java.util.Arrays;
 
 public class LongestConsecutiveSequence {
