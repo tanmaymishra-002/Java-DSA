@@ -23,6 +23,9 @@ public class MajorityElementII {
         //     }
         // }
         // return list;
+
+
+        // BETTER APPROACH - O(1) SPACE COMPLEXITY [MOORES VOTING ALGO]
         ArrayList <Integer> list = new ArrayList<>();
         int count1=0;
         int element1=0;
