@@ -1,21 +1,31 @@
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class twoSum {
 
     public static int[] twoSum(int[] nums, int target) {
+        //            BRUTE FORCE
+        // for (int i = 0; i < nums.length; i++) {
+        //     for (int j = i + 1; j < nums.length; j++) {
+        //         if (nums[i] + nums[j] == target) {
+        //             return new int[]{i, j};
+        //         }
+        //     }
+        // }
 
-        for (int i = 0; i < nums.length; i++) {
+        // return new int[]{-1, -1}; 
 
-            for (int j = i + 1; j < nums.length; j++) {
-
-                if (nums[i] + nums[j] == target) {
-                    return new int[]{i, j};
-                }
-
+        //              OPTIMAL
+        HashMap <Integer,Integer> map = new HashMap<>();
+        for(int i = 0; i<nums.length;i++){
+            int value = target-nums[i];
+            if (!map.containsKey(value)){
+                map.put(nums[i],i);
+            }else{
+                return new int [] {map.get(value),i};
             }
         }
-
-        return new int[]{-1, -1};
+        return new int [] {-1,-1};
     }
 
     public static void main(String[] args) {
