@@ -1,6 +1,7 @@
 import java.util.*;
 class ValidAnagram{
     public static void main(String[] args) {
+        // LEETCODE - 242
         String s = "anagram";
         String t = "nagaram";
         HashMap <Character, Integer> map1= new HashMap<>();
