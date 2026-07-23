@@ -89,7 +89,7 @@ public class FlattenLinkedList {
         d1.child = d2;
         d2.child = d3;
         System.out.println("Original Vertical Lists:");
-        System.out.print("5:  ");
+        System.out.print("5:  ");1.jav
         obj.printList(n1);
         System.out.print("10: ");
         obj.printList(n2);
