@@ -2,11 +2,11 @@
 
 A collection of Data Structures & Algorithms problems solved in Java, organized by topic as I learn and practice.
 
-## 📂 Structure
+##  Structure
 
 Each folder represents a DSA topic and contains Java solutions for individual problems with descriptive file names.
 
-## 📝 Notes
+##  Notes
 
 - Clean and readable implementations.
 - Focused on understanding concepts and writing efficient solutions.
