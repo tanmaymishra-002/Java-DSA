@@ -9,7 +9,6 @@ public class ReverseAStack{
         st.push(2);
 
         System.out.println("Original Stack : " + st);
-
         reversestack(st);
         System.out.println("Reversed Stack : " + st);
     }
