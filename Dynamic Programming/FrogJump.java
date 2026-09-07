@@ -18,7 +18,7 @@ class FrogJump {
     }
     public static void main(String[] args) {
         int[] heights = {10, 20, 30, 10};
-        Solution obj = new Solution();
+        FrogJump obj = new FrogJump();
         System.out.println("Minimum energy: " + obj.frogJump(heights));
     }
 }
